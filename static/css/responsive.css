@@ -1,0 +1,176 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul li a {
+        padding: 40px 13px;
+    }
+    .footer-info>p {
+        font-size: 13px;
+    }
+    .progress-circular {
+        margin-bottom: 50px;
+    }
+    .our-skill-area {
+        padding: 151px 0 110px;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    /* .container {width:300px} */
+    .top-icon {
+        float: none;
+        text-align: center;
+    }
+    .logo {}
+    .main-menu-area:before, .main-menu-area:after {display: none;}
+    .breadcrumb-banner-area.bg-img-2.ptb-100.bg-opacity-2 {min-height:initial;}
+    .slider-text h1 {
+        font-size: 51px;
+        line-height: 51px;
+        margin-bottom: 20px;
+    }
+    .slider-text p {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .slider-text a {
+        margin-top: 30px;
+    }
+    .portfolio-item {
+        width: 100%;
+    }
+    .icon {
+        float: none;
+        text-align: center;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .single-counter {
+        border-right: none;
+    }
+    .team-img img {
+        width: 100%;
+    }
+    .blog-img img {
+        width: 100%;
+    }
+    .main-menu-area {
+        padding-bottom: 14px;
+    }
+    .portfolio-img img {
+        width: 100%;
+    }
+    .single-skill {
+        margin-bottom: 40px;
+    }
+    .our-skill-area {
+        padding: 151px 0 120px;
+    }
+    .our-blog-img img {
+        width: 100%;
+    }
+    .copyright {
+        margin-bottom: 15px;
+    }
+    .creative-img {
+        float: none;
+    }
+    .header-top-area {
+        display: none;
+    }
+    .bikeservicesclm .tab_container { width: auto;border-radius: inherit; }
+    .banner-pin, .godown {display:none;}
+    .bgmd .col-md-4 {padding-left: 0;}
+    .pdrd {background: none;padding: 0;border-radius: 0;}
+    .portfolio-filter li { margin-top: 10px; }
+    .features-area.pt-100.pb-70.ss .features-text h4 {display: inherit;
+    height: inherit;}
+ .single-slider {padding: 80PX 0;}
+    .HtSer h2 {text-align: center;;margin: 20px 0}
+    .owl-dots {
+    bottom: 16px;}
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (max-width: 480px) and (max-width: 767px) {
+    .container {width:96%;}
+.bikeservicesclm ul.tabs li.active h5:before {bottom:41px;border-width: 20px 20px 0 20px;}
+.bikeservicesclm ul.tabs li h5 {text-align: center;}
+.bikeservicesclm ul.tabs:before {width:70%;top: 28px;}
+.features-text h4 {font-size:14px;}
+.fxmid .single-features {min-height: inherit;}
+.mobile-bottom-nav {display: flex;}
+.icon-features { margin-bottom: 10px;}   
+.icon-features i {font-size: 25px;height: 50px;line-height: 50px;width: 50px;}
+.service-area.pt-100.pb-50.innerpg .mb-50, .col-md-3.mb-50.col-sm-6 {margin-bottom:25px;display: inline-block;width: 49%;padding: 10px;}
+.service-area.pt-100.pb-50 .single-service {padding:10px;}
+.service-tittle h3 {font-size:13px;font-weight: 600;}
+.service-tittle a {height: 40px;width: 40px;line-height: 34px;}
+.middlesec ul li {width: 48%;padding: 0;margin-bottom: 10px;}
+.creative-area.pb-70:after {display:none;}
+ .Click-here {right: -55px;margin-right: 0;top: inherit;bottom: 115px;padding: 8px 12px;font-size: 14px;}
+.bikeservicesclm ul.tabs li { margin: 0 10px; }
+.bikeservicesclm ul.tabs li h4 {line-height: 12px;
+    width: 50px;}
+   .bikeservicesclm .tab_drawer_heading {
+        background-color: #ccc;
+        color: #fff;
+        border-top: 1px solid #333;
+        margin: 0;
+        padding: 5px 20px;
+        display: block;
+        cursor: pointer;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;display:none;}
+   .bikeservicesclm .d_active {
+        background-color: #666;
+        color: #fff;display:none;
+    }
+    .counter-area.ptb-20 .col-md-3.col-sm-3 {border-top: solid 1px #ccc;}
+    .custom-model-wrap { padding: 40px 20px; }
+    .custom-model-wrap ul.bikelisting { padding: 0;}
+    .custom-model-wrap .bikelisting li {display: inline-block;}
+    .ourpricing .dress-card .dress-card-head.col-md-4 { height: 300px; }
+
+}
+
+@media (max-width:600px) {
+.features-area .col-xs-3 { padding: 0 10px; }    
+.features-area.pt-100.pb-70.ss .features-text h4 { width: auto;font-size: 13px; margin-top: 40px; }
+.single-features {padding: 20px 10px; margin-bottom: 10px;min-height: 150px;}
+.row.apprep1.bgmd { width: auto; }
+.row.apprep1.bgmd .col-md-4 { margin: 0 auto 10px; }
+.fxmid .col-md-2 {width:33%;padding: 10px;}
+.creative-area.pb-70:after { display: none; }
+.breadcrumb-banner-area.bg-img-2.ptb-100 {padding: 100px 0;}
+.activefx {height: 95px;}
+.custom-model-inner.ctmx {
+    width: 96%;
+}
+}
+
+@media (max-width:480px) {
+.features-area.pt-100.pb-70.ss .single-features, .fxmid .single-features {min-height: 130px;}
+}
+@media (max-width:414px){
+.features-area .col-xs-3 {width:33%;}
+.features-text h4 {font-size: 11px;}
+.single-features.sns { margin-bottom: 0; }
+.fxmid .single-features {min-height: 120px;}
+.features-area.pt-100.pb-70.ss .single-features, .fxmid .single-features {min-height: 145px;}
+}
